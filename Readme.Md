@@ -28,7 +28,7 @@ Ensure that you are using MySQL 8. If not, modify the following line in the conf
 ### Running the Application
 
 * Once the application has started successfully, open any web browser on your machine.
-* Enter the following address in the browser's address bar: *http://localhost:2003/*
+* Enter the following address in the browser's address bar: *http://localhost:8080/*
 * Follow the instructions provided in the user interface to proceed.
 
 
