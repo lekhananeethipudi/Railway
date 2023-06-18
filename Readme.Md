@@ -4,13 +4,13 @@
 
 
 
-* Ensure that you are using MySQL 5. If not, modify the following line in the configuration file (application.properties) to use the appropriate dialect for your   MySQL version: <br>
-  *spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect*
+Ensure that you are using MySQL 8. If not, modify the following line in the configuration file (application.properties) to use the appropriate dialect for your   MySQL version: <br>
+  *spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect*
 
 
 * Ensure that you are using Spring 3 or a newer version.
 * Include the Spring Security 6 library in your project.
-* Verify that the default port number 2003 is available for the Tomcat server. If not, change it using the following line in the application.properties file: <br>
+* Verify that the default port number 8080 is available for the Tomcat server. If not, change it using the following line in the application.properties file: <br>
   server.port=8081
             (*Note  port numbers 49152 and 65535 are considered safe to use for custom applications)
  
